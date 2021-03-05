@@ -1,0 +1,94 @@
+@import "index.scss";
+@import "utilities.scss";
+
+
+
+
+
+
+
+section#content {
+    .row {
+        align-items: center;
+        
+    }
+
+    iframe {
+        width: 100%;
+    }
+    
+    .object-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2em;
+    
+        i {
+            color: gray;
+            font-size: 1.5rem;
+        }
+    
+        .object-body {
+            width: 200px;
+            p {
+                margin-bottom: 0;
+                margin-left: 1em;
+                
+            }
+    
+            .title {
+                font-weight: 600;
+            }
+    
+            .sub {
+                color: gray;
+            }
+        }
+    }
+
+    .first-col {
+        margin-bottom: 5em;
+    }
+
+
+
+
+    .second-col {
+        margin-bottom: 5em;
+    
+        h3 {
+            font-weight: 600;
+            margin-bottom: 1em;
+        }
+
+        textarea {
+            margin-bottom: 2em;
+        }
+
+        input {
+            margin-bottom: 1em;
+        }
+
+        
+    }
+
+
+    .send {
+        color: $color-one;
+        border: 1px solid $color-one;
+        padding: 1em 3em;
+        text-transform: uppercase;
+        letter-spacing: 1.5;
+        border-radius: 3px;
+        margin-top: 1em;
+        margin-bottom: 3em;
+
+        &:hover {
+            background-color: $color-one;
+            color: #fff;
+        }
+    }
+
+    
+}
+

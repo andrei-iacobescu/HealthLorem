@@ -1,0 +1,242 @@
+@import "index.scss";
+@import "utilities.scss";
+
+
+section#banner {
+    margin-bottom: 8em;
+    .overlay-banner {
+        display: flex;
+        align-items: center;
+        height: 300px;
+        .container {
+            
+            
+            h2 {
+                color: #fff;
+                font-size: 3rem;
+                font-weight: 600;
+            }
+
+            p {
+                color: #fff;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+
+
+section#blog {
+    .container {
+        .row {
+            .news-item {
+                margin-bottom: 3em;
+                img {
+                    position: relative;
+                    height: 350px;
+                    object-fit: cover;
+                }
+
+                .card {
+                    border: 0;
+                    box-shadow: 1px 1px 1px lightgrey;
+                }
+
+
+                .card-body {
+                    padding: 2em;
+                    
+
+                    .card-title {
+                        font-weight: 600;
+                        font-size: 1.8rem;
+                        margin-bottom: .7em;
+                    }
+
+                    .card-text {
+                        margin-bottom: 1.3em;
+                    }
+
+                    .tags {
+                        color: gray;
+                    }
+
+                    .date {
+                        position: absolute;
+                        width: 100px;
+                        height: 100px;
+                        display: block;
+                        bottom: 210px;
+                        border-radius: 5px;
+                        background-color: $color-one;
+                        color: #fff;
+                        font-weight: 600;
+                        text-align: center;
+                        font-size: 2rem;
+
+
+                        p {
+                            line-height: 1.2;
+                            margin-top: .35em;
+                        }
+
+                        span {
+                            display: block;
+                            font-weight: 300;
+                            font-size: 1.5rem;
+                        }
+                    }
+
+
+                }
+                
+            }
+
+
+            // SECONG GENERAL COL
+            .second-gen {
+                h3 {
+                    font-size: 1.7rem;
+                    padding-bottom: .5em;
+                    margin-bottom: 1em;
+                    border-bottom: 1px solid #F0E9FF;
+                }
+
+                .category,
+                .recent,
+                .clouds,
+                .feeds,
+                .newsletter {
+                    background-color: #FBF9FF;
+                    padding: 2em;
+                    margin-bottom: 5em;
+                    button {
+                        &:hover {
+                            background-color: $color-one;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                
+
+                .search-container {
+                    position: relative;
+                    background-color:#FBF9FF;
+                    padding: 2em;
+                    margin-bottom: 3em;
+                    .fa-search {
+                        position: absolute;
+                        font-size: 1rem;
+                        top: 43px;
+                        right: 50px;
+                        color: grey;
+                    }
+
+                    button.btn {
+                        border: 1px solid $color-one;
+                        width: 100%;
+                        color: $color-one;
+                        text-transform: uppercase;
+                        letter-spacing: .2em;
+                        margin-top: 1em;
+                        padding: 1em;
+
+                        &:hover {
+                            background-color: $color-one;
+                            color: #fff;
+                        }
+                    }
+                }
+
+
+
+
+                .category {
+                    ul {
+                        list-style-type: none;
+                        padding-left: 0;
+                        margin-top: 3em;
+                        li {
+                            margin-bottom: 1em;
+                            padding-bottom: 1em;
+                            border-bottom: 1px solid #F0E9FF;
+                        }
+                    }
+                }
+
+
+                .object-media {
+                    display: flex;
+                    margin-bottom: 2em;
+                    img {
+                        width: 100px;
+                    }
+
+                    .object-body {
+                        margin-left: 1em;
+                        p {
+                            font-size: 1.02rem;
+                            color: #000;
+                            font-weight: 600;
+                            margin-bottom: .3em;
+                        }
+                    }
+                }
+
+
+
+
+
+
+                .clouds {
+                    p {
+                        border: 1px solid gray;
+                        padding: .5em;
+                        display: inline-block;
+                        font-size: .95rem;
+                    }
+                }
+
+                .feeds {
+                    .row {
+                        div {
+                            img {
+                                width: 90px;
+                                height: 90px;
+                                object-fit: cover;
+                                margin-bottom: 1.5em;
+                            }
+                        }
+                    }
+                }
+
+
+
+                .newsletter {
+                    input {
+                        margin-bottom: 2em;
+                        padding-top: .8em;
+                        padding-bottom: .8em;
+                    }
+
+
+                    button {
+                        border: 1px solid $color-one;
+                        color: $color-one;
+                        width: 100%;
+                        padding: 1em;
+                        text-transform: uppercase;
+                        letter-spacing: 2.3;
+                    }
+                }
+
+
+            }
+
+
+            
+        }
+    }
+}

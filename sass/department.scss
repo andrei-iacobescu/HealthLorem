@@ -1,0 +1,28 @@
+@import "index.scss";
+@import "utilities.scss";
+
+
+
+
+
+
+section#banner {
+    .overlay-banner {
+        display: flex;
+        align-items: center;
+        .container {
+            
+            
+            h2 {
+                color: #fff;
+                font-size: 3rem;
+                font-weight: 600;
+            }
+
+            p {
+                color: #fff;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

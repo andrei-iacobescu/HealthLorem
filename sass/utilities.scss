@@ -1,0 +1,73 @@
+// Colors & Radient Colors
+
+$color-one: #009DFF;
+$color-two: #83C4FF;
+$color-three: #5DB2FF;
+$color-four: #F5FBFF;
+$color-five: #1F1F1F;
+
+
+
+// Default Styles 
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+
+// OVERLAY BACKGROUNDS 
+
+.overlay-bg {
+    height: 700px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg");
+    background: -moz-linear-gradient (rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg");
+    background: linear-gradient(rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg"); /* The least supported option. */
+}
+
+
+.overlay-left {
+    height: 700px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg");
+    background: -moz-linear-gradient (rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg");
+    background: linear-gradient(rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg"); /* The least supported option. */
+}
+
+
+
+.overlay-right {
+    height: 700px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg");
+    background: -moz-linear-gradient (rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg");
+    background: linear-gradient(rgba(72,93,114, .9),rgba(35,36,73, .9)), url("../images/pic-carousel-1.jpg"); /* The least supported option. */
+}
+
+
+
+// Banner
+.overlay-banner {
+    height: 300px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(135deg, orange 60%, cyan), url("../images/pic-carousel-1.jpg");
+    background: -moz-linear-gradient (135deg, orange 60%, cyan), url("../images/pic-carousel-1.jpg");
+    background: linear-gradient(90deg, #5EB2FF 15%, transparent), url("../images/pic-carousel-1.jpg"); /* The least supported option. */
+}
